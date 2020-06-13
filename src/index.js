@@ -5,7 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker'; 
 
 ReactDOM.render(
-     <div><App name="Sherjeel" age={28}/></div>,
+     <div>
+       <App name="Sherjeel" age={28}/>
+     </div>,
   document.getElementById('root')
 );
 
